@@ -1,0 +1,21 @@
+{
+    "name": "phper/test",
+    "description": "第一个composer包",
+    "type": "l",
+    "require": {
+        "php": ">=7.1"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "fuliang",
+            "email": "632249982@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Siam\\": "src/siam"
+        }
+    }
+}
